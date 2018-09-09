@@ -7,6 +7,8 @@ public class Car {
     private int power;
     private int cubicCapacity;
     private String imgUrl;
+    public Car(){
+    }
 
     public Car(int id, String make, String model, int power, int cubicCapacity,String imgUrl){
         this.id=id;
